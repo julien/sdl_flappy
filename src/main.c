@@ -28,7 +28,7 @@ const char* images[6] = {
 bird* flappy;
 SDL_Texture* birdtextures[4];
 
-const char* fontfile = "res/fonts/flappy.ttf";
+const char* fontfile = "res/fonts/font.ttf";
 const int fontsize = 50;
 SDL_Color fontcolor = {255, 100, 0, 255};
 TTF_Font* font;

@@ -38,7 +38,7 @@ int loadTextureFromFile(SDL_Renderer* renderer, texture* tex, const char* file) 
 
     SDL_Surface* s = IMG_Load(file);
     if (s == NULL) {
-        printf("%s\n", IMG_GetError());
+        printf("IMG Error: %s\n", IMG_GetError());
         return 0;
     }
 
