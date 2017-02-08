@@ -1,0 +1,12 @@
+src/text.h
+src/texture.h
+CMakeLists.txt
+res/fonts/Flappy.ttf
+res/imgs/bird_frame_1.png
+res/imgs/bird_frame_2.png
+res/imgs/bird_frame_3.png
+res/imgs/bird_frame_4.png
+res/imgs/pipe.png
+src/bird.h
+src/main.c
+src/pipes.h
